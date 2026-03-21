@@ -1,0 +1,68 @@
+# =============================================================================
+# .gitignore per Unity 2022.3 LTS
+# =============================================================================
+
+# ----- Unity generated -----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Asset meta files -> INCLUSI (necessari per Unity)
+# NON aggiungere *.meta qui
+
+# ----- Unity cache -----
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ----- Visual Studio / Rider -----
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ----- OS -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- Build output -----
+*.apk
+*.aab
+*.unitypackage
+*.app
+ExportedProject/
+steamworks_sdk/
+
+# ----- Crash reports -----
+sysinfo.txt
+crashlytics-build.properties
+
+# ----- JetBrains Rider -----
+.idea/
+
+# ----- Test results -----
+[Tt]est[Rr]esult*/
