@@ -100,6 +100,26 @@ tests/DriveOut.Tests/       # Test xUnit + Coverlet
     - US 3591 — Banana Peel Hazard Behavior
   - Feature 3592 — First Boss Implementation Goblin Van Simplified
   - Feature 3593 — Upgrade Van System Placeholder
+- **Epic** 3776 — Game Loop — Run Lifecycle *(aggiunto 2026-04-21)*
+  - Feature 3777 — Run Lifecycle Management
+    - US 3779 — As a player I can start a run from the main menu and enter the tunnel
+      - Task 3780 — Create RunManager with states New/Running/Paused/GameOver
+      - Task 3781 — Create main menu scene with Start button wired to RunManager
+      - Task 3782 — Unit test RunManager state transitions
+    - US 3783 — As a player I receive damage from hazards and see my health on the HUD
+      - Task 3784 — Create HealthSystem with TakeDamage Heal OnDeath events
+      - Task 3785 — Create HUD health bar UI bound to HealthSystem
+      - Task 3786 — Unit test HealthSystem damage and death boundary
+    - US 3787 — As a player when health reaches 0 I see a Game Over screen with run summary
+      - Task 3788 — Create GameOverScreen UI showing distance time and upgrades collected
+      - Task 3789 — Wire HealthSystem OnDeath event to GameOverScreen activation
+    - US 3790 — As a player I can restart the run from the Game Over screen
+      - Task 3791 — Implement run reset: clear hazards reset vehicle position reset health
+      - Task 3792 — Integration test full run lifecycle start to restart
+  - Feature 3778 — Score and Distance Tracking
+    - US 3793 — As a player I can see my score and distance traveled during and after the run
+      - Task 3794 — Create ScoreSystem: distance counter score multiplier events
+      - Task 3795 — Unit test ScoreSystem accumulation and reset
 
 ### Sprint 02 — Boss e Hazard Base
 - **Epic** 3597 — Boss Design Complete
@@ -114,6 +134,26 @@ tests/DriveOut.Tests/       # Test xUnit + Coverlet
   - Feature 3595 — Role Input Isolation System
   - Feature 3596 — Seat Switcher Mechanic
 - **Epic** 3612 — Cooperative Design and Role Communication
+- **Epic** 3796 — Networking Foundation — Local and Online Co-op *(aggiunto 2026-04-21)*
+  - Feature 3797 — Unity Netcode for GameObjects Setup
+    - US 3800 — As a developer I can install NGO and configure NetworkManager for host-client mode
+      - Task 3801 — Add com.unity.netcode.gameobjects via Package Manager
+      - Task 3802 — Create NetworkManager prefab and configure player prefab spawn
+      - Task 3803 — Validate connection on localhost with 2 clients
+  - Feature 3798 — Local Co-op Input Routing
+    - US 3804 — As a local player I am assigned a gamepad or keyboard slot when joining
+      - Task 3805 — Extend Input System with multi-device PlayerInput assignment
+      - Task 3806 — Create player slot UI showing connected devices
+    - US 3807 — As local players we share the same screen with role-specific UI overlays
+      - Task 3808 — Design shared screen HUD layout for 2-4 players with role labels
+      - Task 3809 — Implement role UI panel instantiation per connected player
+  - Feature 3799 — Online Session Management — Host and Join
+    - US 3810 — As a player I can host an online game and share a lobby code with friends
+      - Task 3811 — Implement lobby creation with Unity Relay or Photon
+      - Task 3812 — Generate and display shareable room code
+    - US 3813 — As a player I can join an online game using a lobby code
+      - Task 3814 — Implement join by room code flow
+      - Task 3815 — Handle connection errors and timeout with user feedback
 
 ### Sprint 04 — Upgrade e Mappa Procedurale
 - **Epic** 3603 — Upgrade System Complete
