@@ -67,3 +67,19 @@ crashlytics-build.properties
 
 # ----- Test results -----
 [Tt]est[Rr]esult*/
+
+# ----- .NET build output (src/ e tests/) -----
+src/**/bin/
+src/**/obj/
+tests/**/bin/
+tests/**/obj/
+
+# ----- Unity auto-generated IDE files (non committare) -----
+*.csproj
+*.sln
+!DriveOut.sln
+!src/**/*.csproj
+!tests/**/*.csproj
+
+# ----- Packages lock (rigenerato da Unity) -----
+Packages/packages-lock.json
