@@ -96,8 +96,8 @@ public sealed class VentMonsterBoss : IBoss
         Phase = next;
         _phaseTimer = next switch
         {
-            BossPhase.Engaging   => _emergeDuration,
-            BossPhase.Attacking  => _attackDuration,
+            BossPhase.Engaging => _emergeDuration,
+            BossPhase.Attacking => _attackDuration,
             BossPhase.Retreating => _retreatDuration,
             _ => 0f
         };
