@@ -77,3 +77,63 @@ tests/DriveOut.Tests/       # Test xUnit + Coverlet
 - Branch attivo: `develop`
 - CI attivo su push/PR verso main e develop
 - Dependabot attivo (aggiornamenti NuGet + Actions ogni lunedì)
+
+## Azure DevOps Backlog (tutti in stato New — 2026-04-21)
+
+### Sprint 00 — Setup e Fondamenta
+- **Epic** 3621 — Early Access Release and CI/CD Pipeline
+  - Feature 3622 — GitHub Actions Build Workflow
+  - Feature 3623 — Steam SDK Integration and Automated Deployment
+  - Task 3624 — GitHub Repository Setup and Protection Rules
+- **Epic** 3625 — Engine and Tools Setup
+  - Task 3626 — Unity Project Setup LTS 2022.3 and Input System
+  - Task 3627 — Sentry Crash Reporting Setup
+
+### Sprint 01 — Core Loop e Guida FPS
+- **Epic** 3584 — Core Loop Foundation
+  - Feature 3585 — First Person Driving Mechanics
+    - US 3586 — Setup FPS Camera Component
+      - Task 3587 — Create PlayerController FPS script
+      - Task 3588 — Implement camera rotation smoothing
+      - Task 3589 — Unit test camera behavior
+  - Feature 3590 — First Hazard Implementation Banana Peel
+    - US 3591 — Banana Peel Hazard Behavior
+  - Feature 3592 — First Boss Implementation Goblin Van Simplified
+  - Feature 3593 — Upgrade Van System Placeholder
+
+### Sprint 02 — Boss e Hazard Base
+- **Epic** 3597 — Boss Design Complete
+  - Feature 3598 — Goblin Van Boss Implementation
+  - Feature 3599 — Vent Monster Boss Implementation
+- **Epic** 3600 — Complete Hazard Catalog
+  - Feature 3601 — Cardboard Engine Oil Spikes Hazard
+  - Feature 3602 — Light Flashing Hazard and Spawn Manager
+
+### Sprint 03 — Multiplayer e Ruoli
+- **Epic** 3594 — Role System and Multiplayer Input
+  - Feature 3595 — Role Input Isolation System
+  - Feature 3596 — Seat Switcher Mechanic
+- **Epic** 3612 — Cooperative Design and Role Communication
+
+### Sprint 04 — Upgrade e Mappa Procedurale
+- **Epic** 3603 — Upgrade System Complete
+  - Feature 3604 — Upgrade Pool and Rarity System
+  - Feature 3605 — Upgrade Mechanic and Van Support System
+- **Epic** 3606 — Procedural Map Generation and Sections
+  - Feature 3607 — Section Modular System Five Types
+  - Feature 3608 — Procedural Generation Algorithm and Seed System
+
+### Sprint 05 — Balancing e QA
+- **Epic** 3609 — Difficulty and Balancing Framework
+  - Feature 3610 — Balancing Parameter Tuning System
+  - Feature 3611 — Playtesting Metrics Collection and Analysis
+- **Epic** 3618 — Playtesting Pipeline and Feedback Integration
+  - Feature 3619 — Playtesting Build Distribution and Metrics
+  - Feature 3620 — Feedback Form and GitHub Issues Triage
+
+### Sprint 06 — Progressione e Polish
+- **Epic** 3613 — Progression System and Metagame Roguelite
+  - Feature 3614 — Meta Progression and Upgrade Unlocking
+  - Feature 3615 — Leaderboard and Run History
+- **Epic** 3616 — Game Feel and Feedback Polish
+- **Epic** 3617 — Narrative and World Building Framework (TBD)
