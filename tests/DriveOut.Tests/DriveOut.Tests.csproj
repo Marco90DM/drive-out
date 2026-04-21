@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\DriveOut.Core\DriveOut.Core.csproj" />
     <ProjectReference Include="..\..\src\DriveOut.Systems\DriveOut.Systems.csproj" />
+    <ProjectReference Include="..\..\src\DriveOut.Gameplay\DriveOut.Gameplay.csproj" />
   </ItemGroup>
 
   <ItemGroup>
