@@ -1,6 +1,6 @@
 # 🚗 Drive Out
 
-> **Roguelite arcade racing game** — guida il tuo van attraverso tunnel infiniti, affronta boss, evita hazard e sopravvivi il più a lungo possibile.
+> **Prototipo roguelite arcade racing** — guida il tuo van attraverso tunnel infiniti, affronta boss, evita hazard e sopravvivi il più a lungo possibile.
 
 ---
 
@@ -10,7 +10,7 @@
 |---|---|
 | **Engine** | Unity 2022.3 LTS |
 | **Linguaggio** | C# |
-| **Piattaforma target** | Windows (Steam Early Access) |
+| **Piattaforma target** | Windows — prototipo tecnico |
 | **Modalità** | Single player / Co-op 1–4 giocatori (asimmetrico) |
 | **Genere** | Roguelite / Arcade Racing |
 
@@ -53,7 +53,7 @@ Docs/               # Documentazione di design e GDD
 
 ### Clone e apertura
 ```bash
-git clone https://github.com/marcodellemonache90/drive-out.git
+git clone https://github.com/Marco90DM/drive-out.git
 cd drive-out
 ```
 Apri Unity Hub → **Add project from disk** → seleziona la cartella clonata.
@@ -72,30 +72,6 @@ Apri Unity Hub → **Add project from disk** → seleziona la cartella clonata.
 
 ---
 
-## 📌 Azure DevOps Backlog
-
-Il backlog del progetto è gestito su Azure DevOps:
-👉 `https://dev.azure.com/marcodellemonache90/Drive%20Out`
-
-Sprint attivi:
-- **Sprint 00** — Setup e Fondamenta
-- **Sprint 01** — Core Loop e Guida FPS
-- **Sprint 02** — Boss e Hazard Base
-- **Sprint 03** — Multiplayer e Ruoli
-- **Sprint 04** — Upgrade e Mappa Procedurale
-- **Sprint 05** — Balancing e QA
-- **Sprint 06** — Progressione e Polish
-
----
-
-## 👥 Team
-
-| Ruolo | |
-|-------|-|
-| Game Developer | @marcodellemonache90 |
-
----
-
 ## 📄 Licenza
 
-Progetto privato — tutti i diritti riservati.
+Progetto personale e sperimentale. Gli asset di terze parti, se presenti, restano soggetti alle rispettive licenze.
