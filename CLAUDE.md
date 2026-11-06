@@ -71,7 +71,7 @@ tests/DriveOut.Tests/       # Test xUnit + Coverlet
 - Lingua comunicazione e docs: italiano
 - Campi privati con underscore prefix: `_fieldName`
 - Non committare mai `.env`, `bin/`, `obj/`, `*.user`
-- Git user locale: `Marco90DM <sistemi@testcampoli.it>`
+- Git user locale: configurare un'identità personale, senza indirizzi aziendali
 
 ## Stato corrente
 - Branch attivo: `develop`
